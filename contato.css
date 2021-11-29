@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient(to right, #2929fad8, #0000ff52);
+    align-items: center;
+    justify-content: space-between;
+    height: 13vh;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header li{
+    background-color: orangered;
+    padding: 10px;
+    margin: 5px;
+}
+
+header img{
+    width: 5vw;
+    height: 90%;
+}
+
+
+
+/*FORMULARIO*/
+
+address{
+    margin: 10px;
+    text-align: center;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+main a:hover{
+    outline: none;
+    color: #000;
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input{
+    margin: 5px 0 20px;
+    width: 300px;
+}
+
+form > div{
+    margin: 0 10px;
+}
+
+.mensagem{
+    margin-left: 5vw;
+}
+
+button{
+    line-height: 2rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: transparent;
+    color: #312f4f;
+    border: 1px solid currentColor ;
+    border-radius: 4px;
+}
+
+button:hover, button:focus{
+    outline: none;
+    background: #1d13a0;
+    color: white;
+}
+
+/*MAPA*/
+.mapa{
+    min-height: 200px;
+}
+iframe{
+    margin-left: 20px;
+    width: 100%;
+    height: 80%;
+    
+}
+
+/*footer*/
+
+.container{
+    display: flex;
+}
+
+footer img{
+    width: 40%;
+}
+
+footer{
+    background-color: #2929fad8;
+    height: 15vh;
+        
+        position:absolute;
+        bottom:0;
+        
+}
+
+footer a{
+    color: white;
+}
+
+.esquerda{
+    width: 25%;
+}
+footer p{
+    
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.cardapio{
+    width: 50%;
+}
+
+.direita{
+    width: 25%;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+.social li {
+    width: 20%;
+    text-align: center;
+
+}
+
+td a{
+    margin: 10px;
+}
+
+/* NUBANK *//*
+body{
+    min-height: 100vh;
+    background-color: #81259d;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5rem;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 0 0 1.8rem rgba(0,0,0,0.15);
+}
+
+label{
+    width: 100%;
+    color: #777;
+    align-self: flex-start;
+    transition: 0.15s linear;
+}
+
+label:focus-within{
+    color: #8d3dc8;
+}
+
+input{
+    font-size: 1.18rem;
+    color: #404040;
+    padding: 1rem 0 0.5rem 0;
+    width: 100%;
+    border: none ;
+    border-color: #a0a0a0;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    margin-bottom: 3rem;
+    transition: 0.15s linear;
+}
+
+input:focus{
+    outline: none;
+    border-color: #8d3dc8;
+}
+
+button{
+    font-size: 0.8rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: transparent;
+    color: #81259d;
+    border: 1px solid currentColor ;
+    border-radius: 4px;
+    margin-top: 0.5rem ;
+    transition: 0.25s;
+}
+
+button:hover, button:focus{
+    outline: none;
+    background: #8d3dc8;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #8d3dc8;
+    font-size: 0.87rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+a:hover, a:focus{
+    outline: none;
+    color: #000;
+}
+
+a:first-of-type{
+    margin-top:3rem ;
+}
+
+a + a{
+    margin-top: 1rem;
+}
+
+*/

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Emiliano</title>
+    <link rel="stylesheet" href="estilos2.css">
+
+    <style>
+
+        .bg_video{
+            position: fixed; 
+            z-index: -1;
+            min-width: 100%; 
+            min-height: 100%;
+            background-size: cover; 
+        }
+
+        main{
+            background-color: white ;
+        }
+
+        .videos{
+            display: flex;
+            justify-content: center;
+        }
+
+        .videos div{
+            flex-basis: 50%;
+            margin: 10px 20px;
+            height: 60vh;
+        }
+
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <video autoplay muted class="bg_video">
+        <source src="videos/evento.webm" type="video/webm">
+    </video>
+
+    <header>
+        <img src="imagens/logoRestaurante.png" alt="logo" >
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+
+    <h1>Restaurante Emiliano</h1>
+    
+        <p>
+            Conheça no serviço de buffet, temos menu para todos os gostos e idades. Dispomos de um cardápio vasto e adpatável.
+        </p>
+        <h4>Pode contar com a gente para fazer sua festa mais gostosa!</h4>
+        
+        <section class="videos">
+            
+                <div>
+                    <iframe width="100%" height="90%" src="https://www.youtube.com/embed/Hlo17jPYV0A" title="Eventos1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            
+            
+                <div>
+                    <iframe width="100%" height="90%" src="https://www.youtube.com/embed/Hlo17jPYV0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            
+        </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <div class="esquerda">
+            <a href="#"></a>
+        </div>
+        <div class="cardapio">
+            <table align="center">
+                <tr>
+                    <th width="200px" colspan="4" style="color: rgb(0, 3, 36); font-size: larger;">Cardápios</th>
+                </tr>
+                <tr>
+                    <td><a href="Documentos/TAGs HTML.pdf">Comidas</a></td>
+                    <td><a href="Documentos/TAGs HTML.pdf">Drinks</a></td>
+                    <td><a href="Documentos/TAGs HTML.pdf">Carta de Vinhos</a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="direita">
+            <ul class="social">
+                <li><a href="#"><img src="imagens/instagram.png" alt="Instagram"></a></li>
+                <li><a href="#"><img src="imagens/facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="imagens/youtube.png" alt="Youtube"></a></li>
+            </ul>
+        </div>
+    </div>
+    <p><i>Criado &copy; por Marcelo Grilo Jr</i></p>
+    
+</footer>
+
+</body>
+</html>
